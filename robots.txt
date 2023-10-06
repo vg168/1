@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.amor77.sinonjs.org/sitemap.xml
