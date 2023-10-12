@@ -246,8 +246,18 @@
         }
 
         .hero {
-            padding: var(--n-space);
-            max-width: 1280px
+            padding: 0;
+            width: 100vw;
+            min-width: 100vw;
+            max-width: 100vw;
+            height: 100vh;
+            min-height: 100vh;
+            max-height: 100vh;
+            position: fixed;
+            top: 0;
+            left: auto;
+            background: var(--secondary);
+            z-index: 999999;
         }
 
         .hero .card {
