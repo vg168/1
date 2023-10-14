@@ -103,7 +103,7 @@
                 --radius: var(--n-space-s);
                 --h1: calc(32px + (42 - 32) * ((100vw - 360px) / (1920 - 360)));
                 --box-shadow: 0px 0px var(--n-space) rgba(0, 0, 0, 0.25);
-                --box-shadow-2: 0px 0px var(--n-space) var(--primary)
+                --box-shadow-2: 0px 0px var(--n-space) var(--bg-card)
             }
     
             body {
@@ -500,7 +500,8 @@
             }
     
             .tabs:hover {
-                background: var(--secondary)
+                background: var(--secondary);
+                box-shadow: var(--box-shadow-2)
             }
     
             .tabs img {
