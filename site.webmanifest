@@ -1,6 +1,6 @@
 {
-    "name": "Amor77",
-    "short_name": "Amor77",
+    "name": "Polaris88",
+    "short_name": "Polaris88",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,8 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#4a0a0a",
-    "background_color": "#4a0a0a",
-    "start_url": "https://www.amor77.hyphanet.org/",
+    "theme_color": "#141126",
+    "background_color": "#141126",
+    "start_url": "https://www.polaris88.hyphanet.org/",
     "display": "standalone"
 }
