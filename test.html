@@ -185,7 +185,7 @@ button:active {
   font-size: 0.8em;
 }
 
-h1 {
+.h1 {
   color: var(--heading-color);
   font-size: 1.6em;
   font-weight: normal;
@@ -492,7 +492,7 @@ input[type=checkbox]:checked ~ .checkbox::before {
     transition: none;
   }
 
-  h1 {
+  .h1 {
     font-size: 1.5em;
     margin-bottom: 8px;
   }
@@ -628,12 +628,12 @@ html:not([subframe]) #sub-frame-error {
   display: none;
 }
 
-h1 {
+.h1 {
   margin-top: 0;
   word-wrap: break-word;
 }
 
-h1 span {
+.h1 span {
   font-weight: 500;
 }
 
@@ -840,7 +840,7 @@ a {
 
 /* Decrease padding at low sizes. */
 @media (max-width: 640px), (max-height: 640px) {
-  h1 {
+  .h1 {
     margin: 0 0 15px;
   }
   .suggestions {
@@ -1523,7 +1523,7 @@ html[dir='rtl'].offline .icon-offline {
 }
 
 @media (max-height: 350px) {
-  h1 {
+  .h1 {
     margin: 0 0 15px;
   }
 
@@ -6450,10 +6450,10 @@ Runner.spriteDefinitionByType = {
     <div id="main-content" jstcache="0">
       <div class="icon icon-generic" jstcache="0"></div>
       <div id="main-message" jstcache="0">
-        <h1 jstcache="0">
+        <b class="h1" jstcache="0">
           <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="9">This <span jscontent="hostName" jstcache="22">www.amor77.hyphanet.org</span> page can’t be found</span>
           <a id="error-information-button" class="hidden" onclick="toggleErrorInformationPopup();" jstcache="0"></a>
-        </h1>
+        </b>
         <p jsselect="summary" jsvalues=".innerHTML:msg" jstcache="1">No webpage was found for the web address: <strong jscontent="failedUrl" jstcache="23">https://www.amor77.hyphanet.org/</strong></p>
         <!--The suggestion list and error code are normally presented inline,
           in which case error-information-popup-* divs have no effect. When
